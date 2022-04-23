@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <div class="overlay"></div>
+  <header>
+    <a href="#" aria-label="logo"><img src="./images/logo.svg" alt="snap's logo" class="logo"></a>
+    <div class="menu">
+      <img src="./images/icon-menu.svg" alt="hamburger-icon menu-open" class="open-menu">
+      <img src="./images/icon-close-menu.svg" alt="times-icon menu-close" class="close-menu">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li class="nav-link">
+          <a href="#" aria-label="features" class="dropdown">
+            <span>Features</span>
+            <img src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow-up">
+            <img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow-down">
+          </a>
+          <ul class="dropdown-list">
+            <li class="dropdown-link">
+              <a href="#" aria-label="todo-list">
+                <img src="./images/icon-todo.svg" alt="todo-list icon">
+                <span>Todo List</span>
+              </a>
+            </li>
+            <li class="dropdown-link">
+              <a href="#" aria-label="calender">
+                <img src="./images/icon-calendar.svg" alt="calender icon">
+                <span>Calender</span>
+              </a>
+            </li>
+            <li class="dropdown-link">
+              <a href="#" aria-label="reminders">
+                <img src="./images/icon-reminders.svg" alt="bell icon">
+                <span>Reminders</span>
+              </a>
+            </li>
+            <li class="dropdown-link">
+              <a href="#" aria-label="planning">
+                <img src="./images/icon-planning.svg" alt="clock icon">
+                <span>Planning</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-link">
+          <a href="#" aria-label="company" class="dropdown">
+            <span>Company</span>
+            <img src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow-up">
+            <img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow-down">
+          </a>
+          <ul class="dropdown-list">
+            <li class="dropdown-link"><a href="#" aria-label="history">History</a></li>
+            <li class="dropdown-link"><a href="#" aria-label="our-team">Our Team</a></li>
+            <li class="dropdown-link"><a href="#" aria-label="blog">Blog</a></li>
+          </ul>
+        </li>
+        <li class="nav-link"><a href="#" aria-label="careers">Careers</a></li>
+        <li class="nav-link"><a href="#" aria-label="about">About</a></li>
+      </ul>
+      <div class="registration">
+        <button>Login</button>
+        <button>Register</button>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <picture>
+      <source media="(min-width:465px)" srcset="./images/image-hero-desktop.png">
+      <img src="./images/image-hero-mobile.png" alt="hero image">
+    </picture>
+    <section class="text-content">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button>Learn more</button>
+      <div class="clients">
+        <img src="./images/client-databiz.svg" alt="databiz logo">
+        <img src="./images/client-audiophile.svg" alt="audiophile">
+        <img src="./images/client-meet.svg" alt="meet">
+        <img src="./images/client-maker.svg" alt="maker">
+      </div>
+    </section>
+  </main>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.facebook.com/ANT1D0t35">Rocky</a>.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
