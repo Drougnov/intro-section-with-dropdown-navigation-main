@@ -28,7 +28,7 @@ https://drougnov.github.io/intro-section-with-dropdown-navigation-master/
 
 ## Author
 
-Facebook -[Biplob Barua Rocky] https://www.facebook.com/drougnov.bd.9
+Facebook -[Biplob Barua Rocky] https://www.facebook.com/ANT1D0t35
 
 Frontend Mentor - https://www.frontendmentor.io/profile/Drougnov
 
